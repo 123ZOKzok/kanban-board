@@ -32,7 +32,7 @@ Implements drag-and-drop functionality for seamless task movement within and bet
 
 - REACT - which was used to develop the structure of the kanban app.
 - MUI - which was used to style the User Interface.
-- REACT-BEAUTIFUL-DND - which was used to implememt drag and drop feature.
+- REACT-BEAUTIFUL-DND - which was used to implement drag and drop feature.
 - VERCEL - which was used to deploy the project.
 
 [Go Back to the top](#Kanban-app)
