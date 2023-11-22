@@ -195,6 +195,7 @@ const KanbanBoard = () => {
                       ref={provided.innerRef}
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
+                      style={{ flex: '1', maxWidth: '300px', margin: '8px' }}
                     >
                       <div className="column-header">
                         <Card>
@@ -275,7 +276,7 @@ const KanbanBoard = () => {
                 </Draggable>
               ))}
               <Grid item xs={3} >
-                <div className="column-header">
+                <div className="column-header" style={{ flex: '0 0 auto', margin: '8px' }}>
                   {data.columns.length < MAX_COLUMNS && (
                     <Button
                       className="add-column-button "
